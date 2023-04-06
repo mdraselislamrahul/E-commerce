@@ -1,0 +1,665 @@
+.header {
+    margin-top: 30px;
+    position: relative;
+}
+
+.header img {
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.header .Sarch {
+    display: block;
+    height: 45px;
+    width: 25%;
+    border: none;
+    background-color: rgb(177, 224, 224);
+    padding: 0px 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    left: 35%;
+    font-weight: bold;
+}
+
+.header ul {
+    position: absolute;
+    top: 5px;
+    left: 70%;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(81, 79, 79);
+    padding: 10px 10px;
+    transition: .5s;
+}
+
+.header ul li a:hover {
+    color: rgb(19, 135, 180);
+}
+
+.test {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+.header span {
+    display: none;
+}
+
+.About {
+    margin-top: 230px;
+}
+
+.About b {
+    font-size: 50px;
+    color: rgb(81, 79, 79);
+}
+
+.About p {
+    font-size: 20px;
+    color: rgb(81, 79, 79);
+    margin-top: 30px;
+    position: relative;
+}
+
+.About ul {
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+.About ul li {
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+.About ul li a {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    background-color: rgb(12, 133, 203);
+    color: aliceblue;
+    position: relative;
+    z-index: 1;
+}
+
+.About ul li a::after {
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(81, 79, 79);
+    color: aliceblue;
+    transition: .5s;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.About ul li a:hover::after {
+    width: 100%;
+}
+
+.About ul li a:hover {
+    color: aliceblue;
+}
+
+.About img {
+    position: absolute;
+    top: 150px;
+    left: 45%;
+    height: 500px;
+    width: 500px;
+}
+
+.About .div-1 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 430px;
+    height: 100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 490px;
+    left: 50%;
+}
+
+.About .div-2 {
+    padding: 20px 20px;
+}
+
+.About .div-1 .div-2 b {
+    display: block;
+    font-size: 25px;
+    color: rgb(12, 133, 203);
+}
+
+.About .div-1 .div-2 span {
+    font-size: 50px;
+    color: rgb(81, 79, 79);
+}
+
+.About .div-1 .div-2 strong {
+    color: rgb(81, 79, 79);
+}
+
+.About-1 {
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.About-1 .div-1 {
+    height: 320px;
+    width: 100%;
+    background-color: blueviolet;
+    position: relative;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.About-1 .div-1 img {
+    height: 160px;
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    opacity: .5;
+}
+
+.About-1 .div-1 a {
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    background-color: rgb(63, 1, 121);
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: .5s;
+    z-index: 1;
+}
+
+.About-1 .div-1 b {
+    display: block;
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 80px;
+}
+
+.About-1 .div-1 .img {
+    height: 60px;
+    width: 70px;
+    margin-top: 150px;
+    border-radius: 50%;
+    opacity: 1;
+    margin-left: -130px;
+}
+
+.About-1 .div-1 strong {
+    color: aliceblue;
+    margin-left: 70px;
+    display: block;
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.About-2 {
+    margin-top: 50px;
+}
+
+.About-2 b {
+    font-size: 60px;
+    display: block;
+    margin-top: 60px;
+    color: rgb(35, 167, 243);
+}
+
+.About-2 p {
+    font-size: 25px;
+    color: rgb(132, 129, 129);
+    margin-top: 30px;
+}
+
+.About-2 strong {
+    font-size: 22px;
+}
+
+.block-1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.block-1 b {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+
+.block-1 .div-1 .div-2 {
+    height: 200px;
+    width: 180px;
+    background-color: rgb(29, 104, 232);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.block-1 .div-1 .div-2 h1 {
+    text-align: center;
+    color: rgb(29, 104, 232);
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+}
+
+.block-1 .div-1 .div-2 h4 {
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.block-1 .div-1 .div-3 {
+    padding: 15px;
+}
+
+.block-1 .div-1 .div-3 a {
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: rgb(29, 104, 232);
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.block-1 .div-1 .div-3 a:hover {
+    background-color: rgb(110, 110, 110);
+}
+
+.block-1 .div-1 .div-3 h5 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 15px;
+    color: rgb(79, 80, 81);
+}
+
+.block-1 .div-1 .div-3 small {
+    margin-top: 25px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(60, 61, 61);
+}
+
+.block-1 .div-1 {
+    display: flex;
+    transition: .5s;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.block-1 .div-1:hover {
+    margin-top: -5px;
+    box-shadow: 4px 4px rgb(210, 210, 210);
+}
+
+.block-2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.block-2 b {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+
+.block-2 .div-1 .div-2 {
+    height: 200px;
+    width: 180px;
+    background-color: rgb(80, 9, 100);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.block-2 .div-1 .div-2 img {
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.block-2 .div-1 .div-2 h4 {
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.block-2 .div-1 .div-3 {
+    padding: 15px;
+}
+
+.block-2 .div-1 .div-3 a {
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: rgb(80, 9, 100);
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.block-2 .div-1 .div-3 a:hover {
+    background-color: rgb(110, 110, 110);
+}
+
+.block-2 .div-1 .div-3 h5 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 15px;
+    color: rgb(79, 80, 81);
+}
+
+.block-2 .div-1 .div-3 small {
+    margin-top: 25px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(60, 61, 61);
+}
+
+.block-2 .div-1 {
+    display: flex;
+    transition: .5s;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.block-2 .div-1:hover {
+    margin-top: -5px;
+    box-shadow: 4px 4px rgb(210, 210, 210);
+}
+
+.block-3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.block-3 b {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+
+.block-3 .div-1 .div-2 {
+    height: 200px;
+    width: 180px;
+    background-color: rgb(167, 131, 4);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.block-3 .div-1 .div-2 h1 {
+    text-align: center;
+    color: rgb(167, 131, 4);
+    background-color: black;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+}
+
+.block-3 .div-1 .div-2 h4 {
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.block-3 .div-1 .div-3 {
+    padding: 15px;
+}
+
+.block-3 .div-1 .div-3 a {
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: rgb(167, 131, 4);
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.block-3 .div-1 .div-3 a:hover {
+    background-color: rgb(110, 110, 110);
+}
+
+.block-3 .div-1 .div-3 h5 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 15px;
+    color: rgb(79, 80, 81);
+}
+
+.block-3 .div-1 .div-3 small {
+    margin-top: 25px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(60, 61, 61);
+}
+
+.block-3 .div-1 {
+    display: flex;
+    transition: .5s;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.block-3 .div-1:hover {
+    margin-top: -5px;
+    box-shadow: 4px 4px rgb(210, 210, 210);
+}
+
+.block-4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.block-4 b {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+
+.block-4 .div-1 .div-2 {
+    height: 200px;
+    width: 180px;
+    background-color: rgb(99, 151, 239);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.block-4 .div-1 .div-2 img {
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.block-4 .div-1 .div-2 h4 {
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.block-4 .div-1 .div-3 {
+    padding: 15px;
+}
+
+.block-4 .div-1 .div-3 a {
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: rgb(99, 151, 239);
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.block-4 .div-1 .div-3 a:hover {
+    background-color: rgb(110, 110, 110);
+}
+
+.block-4 .div-1 .div-3 h5 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 15px;
+    color: rgb(79, 80, 81);
+}
+
+.block-4 .div-1 .div-3 small {
+    margin-top: 25px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(60, 61, 61);
+}
+
+.block-4 .div-1 {
+    display: flex;
+    transition: .5s;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.block-4 .div-1:hover {
+    margin-top: -5px;
+    box-shadow: 4px 4px rgb(210, 210, 210);
+}
+
+.Contact {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Contact b {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Contact p {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Contact .Gmail {
+    height: 50px;
+    width: 60%;
+    border: none;
+    background-color: aquamarine;
+    padding: 0px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Contact a {
+    display: inline-block;
+    color: aliceblue;
+    background-color: rgb(38, 93, 202);
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: .5s;
+}
+
+.Contact a:hover {
+    background-color: rgb(106, 106, 106);
+}
+
+.Footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.Footer img {
+    height: 40px;
+    opacity: .8;
+}
+
+.Footer p {
+    font-size: 18px;
+    margin-top: 20px;
+    opacity: .8;
+}
+
+.Footer a {
+    display: block;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.Footer a:hover {
+    color: rgb(38, 93, 202);
+}
+
+.Footer strong {
+    font-size: 20px;
+}
+
+.Footer ul li {
+    list-style: none;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.Footer ul li a {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.Footer b a {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}

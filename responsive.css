@@ -1,0 +1,115 @@
+@media(max-width:778px) {
+    .header ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header .Sarch {
+        display: none;
+    }
+    .header img {
+        height: 30px;
+        width: 150px;
+    }
+    .header .test {
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 80%;
+    }
+    .header .test b {
+        font-size: 25px;
+        padding: 10px 15px;
+        transition: .5s;
+        color: rgb(81, 79, 79);
+    }
+    .header .test b:hover {
+        background-color: rgb(19, 135, 180);
+        border-radius: 50%;
+    }
+    .header .test ol li {
+        list-style: none;
+        line-height: 40px;
+    }
+    .header .test ol li a {
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(81, 79, 79);
+        padding: 10px 10px;
+        transition: .5s;
+    }
+    .header .test ol li a:hover {
+        color: rgb(19, 135, 180);
+    }
+    .header span {
+        display: block;
+        font-size: 25px;
+        position: absolute;
+        top: -10px;
+        left: 65%;
+        color: rgb(81, 79, 79);
+        padding: 10px 15px;
+        transition: .5s;
+        cursor: pointer;
+    }
+    .header span:hover {
+        background-color: rgb(19, 135, 180);
+        border-radius: 50%;
+    }
+    .About img {
+        display: none;
+    }
+    .About .div-1 {
+        display: none;
+    }
+    .About b {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:640px) {
+    .About b {
+        font-size: 25px;
+    }
+    .About p {
+        font-size: 15px;
+    }
+    .About {
+        margin-top: 100px;
+    }
+    .block-1 .div-1 .div-3 h5 {
+        font-size: 17px;
+    }
+    .block-1 .div-1 .div-3 a {
+        font-size: 12px;
+    }
+    .block-2 .div-1 .div-3 h5 {
+        font-size: 17px;
+    }
+    .block-2 .div-1 .div-3 a {
+        font-size: 12px;
+    }
+    .block-3 .div-1 .div-3 h5 {
+        font-size: 17px;
+    }
+    .block-3 .div-1 .div-3 a {
+        font-size: 12px;
+    }
+    .block-4 .div-1 .div-3 h5 {
+        font-size: 17px;
+    }
+    .block-4 .div-1 .div-3 a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:416px) {
+    .About-2 b {
+        font-size: 40px;
+    }
+    .About-2 p {
+        font-size: 20px;
+    }
+}

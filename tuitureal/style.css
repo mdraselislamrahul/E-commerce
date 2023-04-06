@@ -1,0 +1,181 @@
+.header {
+    margin-top: 30px;
+    position: relative;
+}
+
+.header img {
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.header .Sarch {
+    display: block;
+    height: 45px;
+    width: 25%;
+    border: none;
+    background-color: rgb(177, 224, 224);
+    padding: 0px 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    left: 35%;
+    font-weight: bold;
+}
+
+.header ul {
+    position: absolute;
+    top: 5px;
+    left: 70%;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(81, 79, 79);
+    padding: 10px 10px;
+    transition: .5s;
+}
+
+.header ul li a:hover {
+    color: rgb(19, 135, 180);
+}
+
+.test {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+.header span {
+    display: none;
+}
+
+.About {
+    margin-top: 100px;
+}
+
+.About b {
+    font-size: 55px;
+    color: rgb(90, 90, 90);
+}
+
+.About p {
+    font-size: 22px;
+    margin-top: 20px;
+    color: rgb(112, 116, 120);
+}
+
+.About-1 {
+    margin-top: 150px;
+}
+
+.About-1 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.About-1 .div-1 {
+    padding: 0px 20px;
+}
+
+.About-1 b a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.About-1 strong {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(123, 125, 127);
+}
+
+.About-1 p {
+    font-size: 18px;
+    margin-top: 15px;
+    color: rgb(136, 126, 126);
+}
+
+.About-1 h6 {
+    margin-top: 15px;
+    color: rgb(136, 126, 126);
+}
+
+.About-1 ul li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.About-1 ul li a {
+    color: rgb(136, 126, 126);
+    text-decoration: none;
+}
+
+.About-1 ul li span {
+    padding: 0px 10px;
+}
+
+.About-1 ul li a:hover {
+    color: rgb(68, 68, 227);
+}
+
+.About-1 ul {
+    margin-left: -40px;
+}
+
+.Footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.Footer img {
+    height: 40px;
+    opacity: .8;
+}
+
+.Footer p {
+    font-size: 18px;
+    margin-top: 20px;
+    opacity: .8;
+}
+
+.Footer a {
+    display: block;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.Footer a:hover {
+    color: rgb(38, 93, 202);
+}
+
+.Footer strong {
+    font-size: 20px;
+}
+
+.Footer ul li {
+    list-style: none;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.Footer ul li a {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.Footer b a {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}

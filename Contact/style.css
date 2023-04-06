@@ -1,0 +1,211 @@
+.header {
+    margin-top: 30px;
+    position: relative;
+}
+
+.header img {
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.header .Sarch {
+    display: block;
+    height: 45px;
+    width: 25%;
+    border: none;
+    background-color: rgb(177, 224, 224);
+    padding: 0px 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    left: 35%;
+    font-weight: bold;
+}
+
+.header ul {
+    position: absolute;
+    top: 5px;
+    left: 70%;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(81, 79, 79);
+    padding: 10px 10px;
+    transition: .5s;
+}
+
+.header ul li a:hover {
+    color: rgb(19, 135, 180);
+}
+
+.test {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+.header span {
+    display: none;
+}
+
+.contact {
+    margin-top: 60px;
+}
+
+.contact .div-1 {
+    padding: 0px 30px;
+}
+
+.contact .div-1 b {
+    font-size: 50px;
+    color: rgb(65, 65, 65);
+}
+
+.contact .div-1 h5 {
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 35px;
+    color: rgb(129, 129, 129);
+}
+
+.contact .div-2 {
+    margin-top: 100px;
+    padding: 0px 30px;
+}
+
+.contact .div-2 .text {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(206, 241, 229);
+    box-shadow: none;
+    border: none;
+    padding: 0px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(129, 129, 129);
+}
+
+.contact .div-2 label {
+    color: rgb(129, 129, 129);
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.contact .div-2 .text-1 {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 50px;
+    color: aliceblue;
+    background-color: rgb(68, 161, 227);
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.contact .div-2 .text-1:hover {
+    background-color: rgb(129, 129, 129);
+}
+
+.contact .div-3 {
+    margin-top: -60px;
+}
+
+.contact .div-3 b {
+    font-size: 25px;
+    color: rgb(129, 129, 129);
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact .div-3 p {
+    font-size: 18px;
+    color: rgb(129, 129, 129);
+}
+
+.contact .div-3 ul {
+    margin-left: -40px;
+    margin-top: 30px;
+}
+
+.contact .div-3 ul li {
+    list-style: none;
+    line-height: 45px;
+    font-weight: bold;
+    color: rgb(129, 129, 129);
+}
+
+.contact .div-3 ul li span {
+    font-size: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.contact .div-3 ul li span:hover {
+    background-color: rgb(68, 161, 227);
+    color: rgb(0, 0, 0);
+}
+
+.Footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.Footer img {
+    height: 40px;
+    opacity: .8;
+}
+
+.Footer p {
+    font-size: 18px;
+    margin-top: 20px;
+    opacity: .8;
+}
+
+.Footer a {
+    display: block;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.Footer a:hover {
+    color: rgb(38, 93, 202);
+}
+
+.Footer strong {
+    font-size: 20px;
+}
+
+.Footer ul li {
+    list-style: none;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.Footer ul li a {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.Footer b a {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
